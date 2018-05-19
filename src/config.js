@@ -16,23 +16,23 @@ module.exports = Object.assign(
     apiHost: process.env.APIHOST || 'localhost',
     apiPort: process.env.APIPORT,
     app: {
-      title: 'Maquarie Health Chiropractor',
-      description: 'Maquarie Health Chiropractor',
+      title: 'MQ Chiro',
+      description: 'MQ Chiro',
       head: {
-        titleTemplate: '%s | Maquarie Health Chiropractor',
+        titleTemplate: '%s | MQ Chiro',
         meta: [
-          { name: 'description', content: 'Maquarie Health Chiropractor' },
+          { name: 'description', content: 'MQ Chiro' },
           { charset: 'utf-8' },
-          { property: 'og:site_name', content: 'Maquarie Health Chiropractor' },
+          { property: 'og:site_name', content: 'MQ Chiro' },
           {
             property: 'og:image',
             content: ''
           },
           { property: 'og:locale', content: 'en_AU' },
-          { property: 'og:title', content: 'Maquarie Health Chiropractor' },
+          { property: 'og:title', content: 'MQ Chiro' },
           {
             property: 'og:description',
-            content: 'Maquarie Health Chiropractor'
+            content: 'MQ Chiro'
           },
           { property: 'og:card', content: 'summary' },
           { property: 'og:site', content: '@' },
