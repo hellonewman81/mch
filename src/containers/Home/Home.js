@@ -79,7 +79,13 @@ export default class Home extends Component {
             {/* page.image &&
               <img src={page.image.url} alt={page.image.alt} style={{ maxWidth: '100%' }} />
             */}
-            <header className="masthead">
+
+            <header
+              className="masthead"
+              style={{
+                backgroundImage: `url(${page.hero_image.url})`,
+              }}
+            >
               <div className="container">
                 <div className="intro-text">
                   <div className="intro-lead-in">Welcome To</div>
@@ -88,9 +94,9 @@ export default class Home extends Component {
                     <Col xs={12} sm={12} className="">
                       <a
                         className="btn btn-primary d-block btn-xl mb-3 mb-md-0 d-md-inline-block mr-md-5 text-uppercase"
-                        href="/services"
+                        href="/conditions"
                       >
-                        Our Services
+                        Conditions
                       </a>
                       <a
                         className="btn btn-primary btn-xl d-block d-md-inline-block text-uppercase"
