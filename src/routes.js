@@ -32,6 +32,7 @@ const routes = [
       { path: '/conditions', exact: true, component: Conditions },
       { path: '/conditions/:id', exact: true, component: Page },
       { path: '/booking', exact: true, component: Booking },
+      { path: '/bookings', exact: true, component: Booking },
       { path: '/contact', exact: true, component: Contact },
       { path: '/error', exact: true, component: NotFound },
       { component: NotFound }

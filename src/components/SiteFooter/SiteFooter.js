@@ -34,7 +34,7 @@ export default class SiteFooter extends React.Component {
                   <a href="/blog">Blog</a>
                 </li>
                 <li>
-                  <a href="/bookings">Bookings</a>
+                  <a href="/booking">Bookings</a>
                 </li>
               </ul>
             </div>
