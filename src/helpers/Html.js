@@ -58,7 +58,7 @@ export default class Html extends Component {
 
           <meta
             name="google-site-verification"
-            content="OaySxtYDdqGFmLgV137w-6OpTOp4k1TbRS5HJ6KCG7k"
+            content="Lb-drti4atTtJaAIWiiJDBTlaikgUmMXAYJ0bzKcgKY"
           />
 
           {bodyAttrs &&
