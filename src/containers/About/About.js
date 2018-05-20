@@ -108,12 +108,20 @@ export default class About extends Component {
                       {page.practitioners &&
                         page.practitioners.map((item, idx) => (
                           <li className={idx % 2 === 0 ? 'timeline-inverted' : ''}>
-                            <div className="timeline-image">
+                            <div
+                              className="timeline-image"
+                              style={{
+                                backgroundImage: `url(${item.image ? item.image.url : 'img/about/1.jpg'})`,
+                                backgroundSize: 'cover'
+                              }}
+                            >
+                              {/*
                               <img
                                 className="rounded-circle img-fluid"
-                                src="img/about/1.jpg"
+                                src={item.image ? item.image.url : 'img/about/1.jpg'}
                                 alt=""
                               />
+                              */}
                             </div>
                             <div className="timeline-panel">
                               <div className="timeline-heading">
