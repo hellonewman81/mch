@@ -14,6 +14,7 @@ const getData = async req => {
   console.log(`${path} ${id}`);
 
   if (path === 'l') path = 'landing';
+  if (path === 'about-chiropractic') path = 'about_chiro';
   // /services/biomechanical-assessment
   let x = [];
   await Prismic.getApi(apiEndpoint, { accessToken: apiToken })

@@ -83,7 +83,7 @@ export default class About extends Component {
             >
               <div className="container">
                 <div className="intro-text" style={{ paddingTop: '20vh' }}>
-                  <div className="intro-lead-in">About</div>
+                  <div className="intro-lead-in">{RichText.render(page.title, linkResolver)}</div>
                   <div className="intro-heading text-uppercase">MQ Chiro</div>
                 </div>
               </div>
@@ -93,6 +93,7 @@ export default class About extends Component {
               <Container className="my-5">{RichText.render(page.body, linkResolver)}</Container>
             </section>
 
+            {page.practitioners &&
             <section id="about">
               <div className="container">
                 <div className="row">
@@ -134,6 +135,7 @@ export default class About extends Component {
                 </div>
               </div>
             </section>
+            }
           </div>
         ) : (
           <Row>Unable to load page</Row>

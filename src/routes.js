@@ -21,7 +21,7 @@ const routes = [
     component: App,
     routes: [
       { path: '/', exact: true, component: Home },
-      { path: '/about', exact: true, component: About },
+      { path: '/about-chiropractic', exact: true, component: About },
       { path: '/services', exact: true, component: Services },
       { path: '/services/:id', exact: true, component: Page },
       { path: '/landing/:id', exact: true, component: Landing },
