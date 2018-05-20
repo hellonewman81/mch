@@ -82,7 +82,7 @@ export default class About extends Component {
               }}
             >
               <div className="container">
-                <div className="intro-text-alt">
+                <div className="intro-text intro-text-alt">
                   <div className="intro-lead-in">{RichText.render(page.title, linkResolver)}</div>
                   <div className="intro-heading text-uppercase">MQ Chiro</div>
                 </div>

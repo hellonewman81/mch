@@ -91,7 +91,7 @@ export default class Services extends Component {
               }}
             >
               <div className="container">
-                <div className="intro-text-alt">
+                <div className="intro-text intro-text-alt">
                   <div className="intro-lead-in">Services</div>
                   <div className="intro-heading text-uppercase">MQ Chiro</div>
                 </div>
