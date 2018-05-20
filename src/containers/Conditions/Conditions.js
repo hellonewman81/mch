@@ -85,7 +85,7 @@ export default class Services extends Component {
               className="masthead"
               style={{
                 backgroundImage:
-                  'url(https://prismic-io.s3.amazonaws.com/footright%2F6c8c48a7-b1a0-4521-98bb-df7aa14066f4_hero_blog.png)',
+                  'url(https://prismic-io.s3.amazonaws.com/mqchiro%2F0aca65ad-cc3f-4550-aa13-36157b2870a8_about-chiro.png)',
                 height: '50vh',
                 minHeight: '50vh'
               }}
